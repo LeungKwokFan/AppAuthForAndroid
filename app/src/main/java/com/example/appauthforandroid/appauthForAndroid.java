@@ -38,10 +38,10 @@ public class appauthForAndroid extends AppCompatActivity {
     private static String AUTHORIZATION_ENDPOINT_URI = "https://accounts.google.com/o/oauth2/v2/auth";
     private static String TOKEN_ENDPOINT_URI = "https://www.googleapis.com/oauth2/v4/token";
     private static final String REVOCATION_ENDPOINT_URI = "https://accounts.google.com/o/oauth2/revoke";
-    private static final String REDIRECT_URI_SCHEME = "com.example.appauthforandroid";
+    private static final String REDIRECT_URI_SCHEME = "com.example.appauthforandroid"; // your package name
     private static final String REDIRECT_URI_PATH = "/oauth2redirect";
-    private static final String CLIENT_ID = "{your client id}";
-    private static final String SCOPE = "openid email profile";
+    private static final String CLIENT_ID = "{your client id}"; //here replace with your client id got from google cloud console.
+    private static final String SCOPE = "openid email profile"; // depends on your situation.
     public static final int REQUEST_CODE = 100;
 
     private AuthorizationService authService;
