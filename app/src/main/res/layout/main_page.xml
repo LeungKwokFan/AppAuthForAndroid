@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/GoogleBasicTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:text="Google Login via App Auth"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/GoogleRequestButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Make Google Request" />
+
+    <Button
+        android:id="@+id/GoogleSignOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign Out" />
+
+    <ImageView
+        android:id="@+id/ProfileImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/GoogleGivenNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Given Name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/GoogleFamilyNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Family Name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/GoogleMessageTextview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Message" />
+
+
+</LinearLayout>
