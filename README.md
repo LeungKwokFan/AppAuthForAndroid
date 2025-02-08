@@ -72,7 +72,9 @@ and
 Since Google Cloud Platform needs the fingerprint of our project to verify. We'd better prepare it at first.
 
 For example, for Huawei phones, we can follow the official tutorial: 
+
 CN Version: https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/config-agc-0000001050196065#section147011294331
+
 EN Version: https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/config-agc-0000001050196065#section147011294331
 
 ##### Potential Problem
